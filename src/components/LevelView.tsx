@@ -2,7 +2,7 @@ import { useEffect, useRef, type ReactElement } from "react";
 import type { Level, Size } from "../utils/types";
 import { getLayerSize } from "../utils/getLayerSize";
 import { SizedCanvas } from "./SizedCanvas";
-import { drawLevel } from "../utils/draw/draw.utils";
+import { drawLevel } from "../utils/draw/drawLevel";
 
 type Props = {
   level: Level;
